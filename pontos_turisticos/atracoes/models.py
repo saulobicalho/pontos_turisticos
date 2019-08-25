@@ -1,6 +1,6 @@
 from django.db import models
 
-class Atracoes(models.Model):
+class Atracao(models.Model):
     nome = models.CharField(max_length=150)
     descricao = models.TextField()
     horario_func = models.TextField()
